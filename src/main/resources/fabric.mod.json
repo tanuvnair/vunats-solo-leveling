@@ -3,7 +3,7 @@
 	"id": "vunats-solo-leveling",
 	"version": "${version}",
 	"name": "Vunat's Solo Leveling",
-	"description": "This is an example description! Tell everyone what your mod is about!",
+	"description": "This is a mod I am creating to learn modding in Fabric!",
 	"authors": [
 		"Me!"
 	],
@@ -11,12 +11,15 @@
 		"homepage": "https://fabricmc.net/",
 		"sources": "https://github.com/FabricMC/fabric-example-mod"
 	},
-	"license": "CC0-1.0",
+	"license": "MIT",
 	"icon": "assets/vunats-solo-leveling/icon.png",
 	"environment": "*",
 	"entrypoints": {
 		"main": [
 			"net.tanuv.vunatssololeveling.VunatsSoloLeveling"
+		],
+		"client": [
+			"net.tanuv.vunatssololeveling.VunatsSoloLevelingClient"
 		],
 		"fabric-datagen": [
 			"net.tanuv.vunatssololeveling.VunatsSoloLevelingDataGenerator"
