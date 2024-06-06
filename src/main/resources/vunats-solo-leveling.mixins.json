@@ -1,0 +1,11 @@
+{
+	"required": true,
+	"package": "net.tanuv.vunatssololeveling.mixin",
+	"compatibilityLevel": "JAVA_21",
+	"mixins": [
+		"ExampleMixin"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	}
+}
