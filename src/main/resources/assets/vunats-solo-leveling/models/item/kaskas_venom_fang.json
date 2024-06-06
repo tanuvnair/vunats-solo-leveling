@@ -1,0 +1,6 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "vunats-solo-leveling:item/kaskas_venom_fang"
+  }
+}
